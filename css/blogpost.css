@@ -1,0 +1,153 @@
+.post {
+    grid-area: main;
+}
+
+.posts {
+    grid-area: aside;
+    background-color: #d0e8ff;
+    padding: 0 0.5em;
+}
+
+.contact {
+    grid-area: contact;
+    background-color: #f0f8ff;
+    padding: 0 0.5em;
+    margin: 0.6em 0 0 0;
+}
+
+.article {
+    grid-area: author;
+}
+
+.footer {
+    grid-area: footer;
+    margin: 1em 0;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.links-list {
+    color: #073763;
+}
+
+.posts-list {
+    color: #001f3b;
+}
+
+.button-prev {
+    background-color: #ffe4c4;
+    color: #2577c3;
+    padding: 0.5em 1em;
+    border: none;
+    font-family: 'Lora', serif;
+    font-size: 1em;
+}
+
+.button-prev:hover {
+    background-color: #f7d1a3;
+}
+
+.button-next {
+    background-color: #2577c3;
+    color: #ffe4c4;
+    padding: 0.5em 1em;
+    border: none;
+    font-family: 'Lora', serif;
+    font-size: 1em;
+}
+
+.button-next:hover {
+    background-color: #073763;
+}
+
+.button-prev,
+.button-next {
+    padding: 0.3em 0.5em;
+    margin: 1em 0.5em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+h2 {
+    color: #015a5e;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #067e85;
+    font-size: 1.3em;
+}
+
+h4 {
+    color: #424242;
+    font-size: 1.1em;
+}
+
+p {
+    font-size: 1em;
+    text-overflow: ellipsis;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    padding: 0.2em;
+    line-height: 1.5em;
+    margin: 0.5em 0;
+}
+
+figcaption {
+    font-style: italic;
+    color: #001f3b;
+    font-size: 0.9em;
+}
+
+blockquote {
+    background-color: #ffe4c456;
+    padding: 0.5em 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.158) inset;
+    color: #001f3b;
+    text-shadow: 1px 1px #01595e42;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.avatar {
+    width: 100px;
+    height: 130px;
+    border-radius: 50%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+
+.author {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-template-rows: repeat(4, auto);
+
+    padding: 2em 0;
+    margin: 1em 0;
+    border-top: thick groove #32a1ce;
+    background-color: #daeeff;
+    border-radius: 10px;
+
+}
+
+.author > p {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+}

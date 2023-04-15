@@ -1,0 +1,105 @@
+body {
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+    font-style: italic;
+    color: #013538;
+}
+
+nav {
+    background-color: #073763;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #ffe4c4;
+}
+
+nav > button {
+    background-color: #2577c3;
+    color: #ffeed8;
+    border-color: #073763;
+}
+
+input {
+    background-color: #d0e8ff;
+    color: #4169e1;
+}
+
+footer {
+    background-color: #122536;
+    color: #fff8dc;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    line-height: 2;
+    outline: none;
+    cursor: pointer;
+}
+
+.contact-link {
+    color: #d0e8ff;
+}
+
+.contact-item {
+    list-style-type: none;
+}
+
+.read-more-button {
+    background-color: #2577c3;
+    text-decoration: none;
+    color: #ffeed8;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    border: none;
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.read-more-button:hover {
+    background-color: #073763;
+}
+
+img {
+    padding: 1em 0;
+}
+
+.card {
+    background-color: #fffae6;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 1em;
+    padding: 1em;
+}
+
+.card:hover {
+    box-shadow: 0 0.5em 1em 0 #0006;
+}
+
+b {
+    color: #013538;
+}
+
+i {
+    color: #2577c3;
+}
+
+u {
+    color: #073763;
+    text-decoration-color: #122536;
+    text-decoration-thickness: 2px;
+}
+
+.submit-button,
+.subscribe-button {
+    cursor: pointer;
+}
